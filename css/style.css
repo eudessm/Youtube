@@ -1,0 +1,176 @@
+*{
+    box-sizing: content-box;
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    color: #0f0f0f;
+    font-size: 14px;
+
+}
+.principal{
+    display: flex;
+    gap: 30px;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.img-thumb{
+    width: 372px;
+}
+.img-canal{
+    width: 36px;
+}
+.img-canal{
+    border-radius: 50%;
+}
+.caixas-textos{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    gap: 6px;
+    font-family: 16px "Roboto", Arial, sans-serif;     
+}
+.caixa-title{
+    color: #0f0f0f;    
+    font-weight: 700;
+    margin-bottom: 2px;
+    padding-right: 10px;
+    align-items: center;
+    
+    text-decoration: none;
+}
+.caixa-sub-title a{
+    color: #606060;
+    text-decoration: none;
+    display: block;
+}
+.caixa-sub-title{
+    font-size: 14px;
+}
+.img-thumb{
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 6px;
+}
+
+.caixa-info{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.caixa-projetos{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 40px;
+    width: 100%;
+}
+.categoria{
+    font-family: inherit;
+    border-radius: 8px;
+    background-color: #0000000D;    
+    padding: 10px 13px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+.categorias{
+    display: flex;
+    margin-top: 15px;
+    gap: 7px;
+}
+.categoria::after{
+    background-color: #0f0f0f;
+    color: white;
+}
+.menu-lateral{
+    min-width: 240px;
+    width: 240px;
+}
+.menu-login,
+.menu-bloco{
+    border-bottom: 1px solid #0000000D;
+    padding: 15px;
+}
+.menu-bloco:last-child{
+    border-bottom:none;
+    padding: 15px;
+}
+.bloco-item{
+    display: flex;
+    border-radius: 12px;
+    padding: 7.5px 15px;
+    align-items: center;
+    text-decoration: none;
+    gap: 20px;
+}
+.bloco-item:hover{
+    background-color: #0000000D; 
+}
+.bloco-titulo{
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 15px;
+    padding: 3px;
+}
+.login-texto{
+    margin: 10px;
+}
+.login-bloco{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 5px;
+    border-radius: 100px;
+    border: 1px solid #0000000D;
+    padding: 6px 12px;
+    color: #3ea6ff;
+    width: max-content;
+}
+.menu-login{
+    padding: 16px 32px;
+}
+.bloco-texto{
+    color: inherit;
+    font-weight: 500;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;    
+}
+.caixa-logo,
+.caixa-pesquisa{
+    display: flex;
+    gap: 14px;
+}
+.icone-menu{
+    height: 24px;
+}
+.icone-logo{
+    height: 24px;
+}
+.caixa-pesquisa{
+    
+
+}
+.input-pesquisa{
+    border-radius: 100px;
+    border: 1px solid hsl(0,0%,18.82%);
+    height: 30px;
+    width: 640px;
+    font-size: 20px;
+    padding: 0 20px;    
+}
+.icone-microfone{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    background-color: #0000000D;
+    border-radius: 50%;
+}
